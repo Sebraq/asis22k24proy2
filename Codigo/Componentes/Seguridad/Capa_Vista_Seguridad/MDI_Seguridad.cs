@@ -445,6 +445,13 @@ namespace Capa_Vista_Seguridad
 
         }
 
+        private void pruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Prueba frmprueba = new Prueba(idUsuario);
+            frmprueba.MdiParent = this;
+            frmprueba.Show();
+        }
+
         //------------------------------------------ Fin KATERYN DE LEON y Gabriela Suc ------------------------------------------
 
 
