@@ -15,7 +15,7 @@ namespace Interfac_V3
     public partial class FormModulos : Form
     {
         string idUsuario;
-        public FormModulos(string idUsuario)
+        public FormModulos()
         {
 
             InitializeComponent();
@@ -40,11 +40,14 @@ namespace Interfac_V3
 
         private void btnSeguridad_Click(object sender, EventArgs e)
         {
-           // var usuario = new Capa_Vista_Seguridad.frm_login();
+            // var usuario = new Capa_Vista_Seguridad.frm_login();
             //string idUsuario= usuario.Txt_usuario.ToString();
 
-            MDI_Seguridad formMDI = new MDI_Seguridad(idUsuario);
-            formMDI.Show();
+            //MDI_Seguridad formMDI = new MDI_Seguridad(idUsuario);
+            //formMDI.Show();
+
+            frm_login formlogin = new frm_login();
+            formlogin.Show();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
