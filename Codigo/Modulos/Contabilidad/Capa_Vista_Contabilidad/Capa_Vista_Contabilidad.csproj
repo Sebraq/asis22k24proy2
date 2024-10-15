@@ -66,6 +66,12 @@
     </Compile>
     <Compile Include="frm_tipo_poliza.Designer.cs">
       <DependentUpon>frm_tipo_poliza.cs</DependentUpon>
+    <Compile Include="Class1.cs" />
+    <Compile Include="EstadosFinancieros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstadosFinancieros.Designer.cs">
+      <DependentUpon>EstadosFinancieros.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -78,6 +84,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_tipo_poliza.resx">
       <DependentUpon>frm_tipo_poliza.cs</DependentUpon>
+    <EmbeddedResource Include="EstadosFinancieros.resx">
+      <DependentUpon>EstadosFinancieros.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
