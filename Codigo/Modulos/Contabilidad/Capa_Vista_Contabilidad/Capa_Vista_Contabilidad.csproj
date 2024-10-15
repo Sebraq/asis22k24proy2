@@ -34,6 +34,9 @@
     <Reference Include="Capa_Controlador_Contabilidad">
       <HintPath>..\Capa_Controlador_Contabilidad\bin\Debug\Capa_Controlador_Contabilidad.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Navegador">
+      <HintPath>..\..\..\Componentes\Navegador\Capa_Vista_Navegador\bin\Debug\Capa_Vista_Navegador.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -46,6 +49,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_cuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cuentas.Designer.cs">
+      <DependentUpon>frm_cuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_presupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_presupuesto.Designer.cs">
+      <DependentUpon>frm_presupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_tipo_poliza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_tipo_poliza.Designer.cs">
+      <DependentUpon>frm_tipo_poliza.cs</DependentUpon>
     <Compile Include="Class1.cs" />
     <Compile Include="EstadosFinancieros.cs">
       <SubType>Form</SubType>
@@ -56,6 +76,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frm_cuentas.resx">
+      <DependentUpon>frm_cuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_presupuesto.resx">
+      <DependentUpon>frm_presupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_tipo_poliza.resx">
+      <DependentUpon>frm_tipo_poliza.cs</DependentUpon>
     <EmbeddedResource Include="EstadosFinancieros.resx">
       <DependentUpon>EstadosFinancieros.cs</DependentUpon>
     </EmbeddedResource>
