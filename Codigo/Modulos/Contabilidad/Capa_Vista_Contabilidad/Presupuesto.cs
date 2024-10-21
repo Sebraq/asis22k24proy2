@@ -16,5 +16,15 @@ namespace Capa_Vista_Contabilidad
         {
             InitializeComponent();
         }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Presupuesto_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
